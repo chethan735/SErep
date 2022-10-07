@@ -1,4 +1,4 @@
-import heapq
+import heap
 
 
 def lex_adj(s, cost):
