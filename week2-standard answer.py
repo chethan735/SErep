@@ -41,7 +41,7 @@ def A_star_Traversal(cost, heuristic, start_point, goals):
                 if i not in visited:
                     heapq.heappush(
                         pqueue, (cost[cur_node][i] + cur_total_cost + heuristic[i], cur_path+[i]))
-    return l
+    return 0
 
 
 def DFS_Traversal(cost, start_point, goals):
