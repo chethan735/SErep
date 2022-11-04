@@ -1,5 +1,5 @@
 import heapq
-#adding some part to optimize
+#adding some part to optimiz
 
 
 def lex_adj(s, cost):
